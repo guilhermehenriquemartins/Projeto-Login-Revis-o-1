@@ -106,10 +106,32 @@ form > a.botao > span.material-icons {
   width: 100%;
   display: block;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 5px 0px;
 }
 
 .campo > label {
   display: none;
+}
+
+.campo > span {
+  color: white;
+  font-size: 2em;
+  width: 40px;
+  padding: 5px;
+}
+
+.campo > input:focus-within {
+  background-color: white;
+}
+
+.campo > input {
+  background-color: aquamarine;
+  font-size: 1em;
+  height: 80%;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 5px;
+  width: calc(100% - 46px);
+  transform: translateY(-10px);
 }
